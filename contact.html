@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Nostra Collection Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/nostra_logo.png">
+</head>
+<body>
+    <header class="header">
+        <h1>Nostra</h1>
+        <nav class="navbar">
+            <p><a class="navbar-link" href="index.html">Home</a></p>
+            <p><a class="navbar-link" href="collection.html">Collections</a></p>
+        </nav>
+        <div class="navbar-toggle">
+            <i class="fa-solid fa-bars" onclick="showsidenav()"></i>
+        </div>
+    </header>
+    <div class="side-navbar">
+        <p style="text-align: right;"><i class="fa-solid fa-xmark" onclick="closesidenav()"></i></p>
+        <div class="side-navbar-links">
+            <p><a class="side-navbar-link" href="index.html">Home</a></p>
+            <p><a class="side-navbar-link" href="collection.html">Collections</a></p>
+        </div>
+    </div>
+
+
+    <div class="contact-page">
+        <h2>Contact Us</h2>
+        <form>
+            <div>
+                <p>Name</p>
+                <input type="text">
+            </div>
+            <div>
+                <p>Email</p>
+                <input type="email">
+            </div>
+            <div>
+                <p>Message:</p>
+                <input>
+            </div>
+
+            <button>Submit</button>
+        </form>
+    </div>
+    
+
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-box">
+                <h2 class="headingtext">Nostra</h2>
+                <p>Nostra is a leading fashion shopping company committed to providing the latest trends and exceptional customer service.</p>
+                <div>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-square-twitter"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                </div>
+            </div>
+        </div>
+        <p>@2024 Nostra.com</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
